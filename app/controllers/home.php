@@ -2,9 +2,12 @@
 
 class Home extends Controller
 {
-    public function index()
+    public function index($name='')
     {
-        $this->loadModel("User");
+        $user = $this->loadModel("User");
+        $user->name = $name;
+
+        $this->loadView('home/index', ['name'=>$user->name]);
     }
 }
 

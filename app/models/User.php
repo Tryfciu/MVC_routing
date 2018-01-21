@@ -2,7 +2,7 @@
 
 class User
 {
-
+    public $name;
 }
 
 ?>
