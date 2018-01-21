@@ -3,7 +3,9 @@ RewriteEngine On
 
 RewriteBase /projekty/php/mvc_routing/public
 
-RewriteCond ${REQUEST_FILENAME} !=d
-RewriteCond ${REQUEST_FILENAME} !=f
+RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png)$ [NC]
+RewriteCond ${REQUEST_FILENAME} !-d
+RewriteCond ${REQUEST_FILENAME} !-f
+RewriteCond ${REQUEST_FILENAME} !-l
 
 RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
