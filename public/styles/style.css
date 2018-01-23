@@ -3,9 +3,6 @@ body {
 }
 
 #header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 6vh;
     background-color: #fa7a10;
@@ -19,6 +16,8 @@ body {
 #page-title {
     flex-grow: 3;
     font-size: 4vh;
+    font-weight: bold;
+    font-family: "MV Boli";
 }
 
 #menu {
@@ -26,8 +25,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: "Gadugi";
+    font-size: 2.5vh;
 }
 
 .menu-button {
 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: grey;
 }

@@ -10,14 +10,14 @@
     <div id="header">
 
         <div id="page-title">
-            Blik
+            <a href="<?php echo MAIN_PATH ?>">Routiz</a>
         </div>
 
         <div id="menu">
             <div class="menu-button">Przegląd routingu</div>
-            <div class="menu-button">Galeria</div>
-            <div class="menu-button">goodbye!</div>
-            <div class="menu-button">hello there</div>
+            <div class="menu-button">Galeria routingu</div>
+            <div class="menu-button">Logowanie</div>
+            <div class="menu-button">Kontakt</div>
         </div>
 
 
