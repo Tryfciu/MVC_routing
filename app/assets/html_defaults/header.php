@@ -14,10 +14,10 @@
         </div>
 
         <div id="menu">
-            <div class="menu-button">Przegląd routingu</div>
-            <div class="menu-button">Galeria routingu</div>
-            <div class="menu-button">Logowanie</div>
-            <div class="menu-button">Kontakt</div>
+            <div class="menu-button"><a href="<?php echo MAIN_PATH.'/overview/overviewController'?>">Przegląd routingu</a></div>
+            <div class="menu-button"><a href="<?php echo MAIN_PATH.'/gallery/galleryController'?>">Galeria routingu</a></div>
+            <div class="menu-button"><a href="<?php echo MAIN_PATH.'/login/loginController'?>">Logowanie</a></div>
+            <div class="menu-button"><a href="<?php echo MAIN_PATH.'/contact/contactController'?>">Kontakt</a></div>
         </div>
 
 
