@@ -7,11 +7,11 @@
     </head>
     <body>
 
-    <div id="header">
+    <nav id="header">
 
-        <div id="page-title">
+        <header id="page-title">
             <a href="<?php echo MAIN_PATH ?>">Routiz</a>
-        </div>
+        </header>
 
         <div id="menu">
             <div class="menu-button"><a href="<?php echo MAIN_PATH.'/overview/overviewController'?>">Przegląd routingu</a></div>
@@ -21,4 +21,4 @@
         </div>
 
 
-    </div>
+    </nav>
