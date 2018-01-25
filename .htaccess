@@ -1,0 +1,3 @@
+RewriteEngine On
+
+DirectoryIndex /projekty/php/mvc_routing/public/index.php
